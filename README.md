@@ -1,8 +1,10 @@
 # basic-img-viewer
 
-Class: 
+Class: {
     img-modal
-    
-Attribute: 
-    data-description
+  }
+  
+Attributes: {
+    data-description,
     data-title
+  }
