@@ -3,7 +3,7 @@ $(document).ready(function () {
     /**
      *  Image modal function
      */
-    $('.img-modal').click(function() {
+    $(document).on('click','.img-modal', function() {
         // Open img modal
         $('#show-img').css('display','block');
 
